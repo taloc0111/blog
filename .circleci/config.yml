@@ -14,8 +14,8 @@ jobs:
       - run:
           name: git config
           command: |
-            git config --global user.email "chienhedspi@gmail.com"
-            git config --global user.name "Chien Kira"
+            git config --global user.email "ta.loc1@gmail.com"
+            git config --global user.name "taloc0111"
             mkdir -p ~/.ssh
             touch ~/.ssh/config
             echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
