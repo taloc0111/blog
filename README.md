@@ -2,4 +2,4 @@
 Built with hugo and using Minimo theme
 
 # public
-https://chienkira.github.io/blog/
+https://taloc0111.github.io/blog/
