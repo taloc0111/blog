@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>terraform on Chienkira full stack web developer</title>
+    <link>https://chienkira.github.io/blog/tags/terraform/</link>
+    <description>Recent content in terraform on Chienkira full stack web developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 03 Nov 2019 16:56:11 +0900</lastBuildDate>
+    
+	<atom:link href="https://chienkira.github.io/blog/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Minimum Web App Terraform Skeleton (English)</title>
+      <link>https://chienkira.github.io/blog/posts/minimum-web-app-terraform-skeleton/</link>
+      <pubDate>Sun, 03 Nov 2019 16:56:11 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/minimum-web-app-terraform-skeleton/</guid>
+      <description>I made a Skeleton for Terraform code. Basically I&amp;rsquo;m supposed to use it for future projects, but then just thought it might be useful for others so that want to share it with you. Also I tried to avoid having to copy and paste codes when deploye in multiple environments for same app. Hopefully, you will be able to reuse at least a part or an idea to help you with your work.</description>
+    </item>
+    
+    <item>
+      <title>Terraform Module and DRY infra code for multiple environments</title>
+      <link>https://chienkira.github.io/blog/posts/deploy-nhi%E1%BB%81u-m%C3%B4i-tr%C6%B0%E1%BB%9Dng-v%E1%BB%9Bi-terraform/</link>
+      <pubDate>Sat, 15 Jun 2019 10:28:15 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/deploy-nhi%E1%BB%81u-m%C3%B4i-tr%C6%B0%E1%BB%9Dng-v%E1%BB%9Bi-terraform/</guid>
+      <description>Vào mùa mưa rồi, ngày cuối tuần bị nó hành cho suốt luôn. Vừa mưa còn vừa lạnh, ai nghĩ đây là mùa hè chứ!!. Tuy nhiên cũng nhờ thế mà nhớ đến cái sở thích 地味 này 😂 Trong bài viết này, mình muốn giới thiệu về module trong terraform, và cách sử dụng nó để deploy lên nhiều môi trường dev-stg-prod khác nhau.
+TL;DR  Các lệnh của terraform mặc định chỉ xử lý các file *.</description>
+    </item>
+    
+  </channel>
+</rss>

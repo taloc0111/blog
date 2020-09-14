@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aws on Chienkira full stack web developer</title>
+    <link>https://chienkira.github.io/blog/tags/aws/</link>
+    <description>Recent content in aws on Chienkira full stack web developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 30 Jul 2020 10:00:38 +0900</lastBuildDate>
+    
+	<atom:link href="https://chienkira.github.io/blog/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Better Logging Practice (Part 2)</title>
+      <link>https://chienkira.github.io/blog/posts/better-logging-practice-part2/</link>
+      <pubDate>Thu, 30 Jul 2020 10:00:38 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/better-logging-practice-part2/</guid>
+      <description>Đại dịch covid-19 tiến hóa thành covid-20 và cả ở Nhật hay ở Việt Nam thì tình hình đều đang rất đáng lo ngại. Bên Nhật còn vài tháng nữa là lại vào mùa lạnh, mùa cúm infu nữa&amp;hellip; không biết sẽ ra sao. Thôi không đánh trống lảng nữa, lý do mãi mới viết nốt part 2 là do lười ham chơi thôi! 😄 🙏 Let&amp;rsquo;s get start!!</description>
+    </item>
+    
+    <item>
+      <title>Memo about AWS ECS Fargate</title>
+      <link>https://chienkira.github.io/blog/posts/ecs-fargate/</link>
+      <pubDate>Thu, 09 Jan 2020 17:50:27 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/ecs-fargate/</guid>
+      <description>Mới đầu năm 2020 nhưng lại có cơ hội được tham khảo một hệ thống xài docker container vào môi trường prod. Ở đây họ dùng ECS và Fargate của AWS. Mình vẽ lại sơ đồ cấu thành của nó lưu lại làm tham khảo và ôn tập lại ECS luôn.
+Cấu thành của 1 hệ thống API dùng ECS Fargate ↓ Ảnh svg, có thể tải về và phóng to ra.</description>
+    </item>
+    
+    <item>
+      <title>Use Presigned Url to Secure Only Some Files Inside A Public S3 Bucket</title>
+      <link>https://chienkira.github.io/blog/posts/use-presigned-url-to-secure-some-files-inside-public-bucket/</link>
+      <pubDate>Fri, 03 Jan 2020 21:17:52 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/use-presigned-url-to-secure-some-files-inside-public-bucket/</guid>
+      <description>Tết mải ăn quá đến cuối ngày mồng 3 mới mò lên khai phím được 😃. Để chào mừng năm 2020 rực rỡ 🎆, bài viết lần này mình muốn note lại chia sẻ cách đặt policy cho S3 bucket, để vừa public bucket lại vẫn bảo mật (yêu cầu presigned url để truy cập) cho một số file nhất định trong bucket nha! Ok let&amp;rsquo;s go!
+Presigned URL là?</description>
+    </item>
+    
+    <item>
+      <title>Minimum Web App Terraform Skeleton (English)</title>
+      <link>https://chienkira.github.io/blog/posts/minimum-web-app-terraform-skeleton/</link>
+      <pubDate>Sun, 03 Nov 2019 16:56:11 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/minimum-web-app-terraform-skeleton/</guid>
+      <description>I made a Skeleton for Terraform code. Basically I&amp;rsquo;m supposed to use it for future projects, but then just thought it might be useful for others so that want to share it with you. Also I tried to avoid having to copy and paste codes when deploye in multiple environments for same app. Hopefully, you will be able to reuse at least a part or an idea to help you with your work.</description>
+    </item>
+    
+    <item>
+      <title>Terraform Module and DRY infra code for multiple environments</title>
+      <link>https://chienkira.github.io/blog/posts/deploy-nhi%E1%BB%81u-m%C3%B4i-tr%C6%B0%E1%BB%9Dng-v%E1%BB%9Bi-terraform/</link>
+      <pubDate>Sat, 15 Jun 2019 10:28:15 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/deploy-nhi%E1%BB%81u-m%C3%B4i-tr%C6%B0%E1%BB%9Dng-v%E1%BB%9Bi-terraform/</guid>
+      <description>Vào mùa mưa rồi, ngày cuối tuần bị nó hành cho suốt luôn. Vừa mưa còn vừa lạnh, ai nghĩ đây là mùa hè chứ!!. Tuy nhiên cũng nhờ thế mà nhớ đến cái sở thích 地味 này 😂 Trong bài viết này, mình muốn giới thiệu về module trong terraform, và cách sử dụng nó để deploy lên nhiều môi trường dev-stg-prod khác nhau.
+TL;DR  Các lệnh của terraform mặc định chỉ xử lý các file *.</description>
+    </item>
+    
+    <item>
+      <title>Basic knowledge about Kubernetes(日本語)</title>
+      <link>https://chienkira.github.io/blog/posts/hi%E1%BB%83u-kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n-c%E1%BB%A7a-kubernetes/</link>
+      <pubDate>Sat, 08 Jun 2019 11:12:01 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/hi%E1%BB%83u-kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n-c%E1%BB%A7a-kubernetes/</guid>
+      <description> Kubernetesとは Dockerは開発環境として使うのがすごく便利ですが、本番環境で使うと色々な問題が考えられます。
+ コンテナがもし死んだら直ちに検知してコンテナを再起動したりして回復しないといけない リクエストが大量になる時、スケールをしないといけない 複数コンテナがあるなら、ロードバランシングをしないといけない 等々  ↑の問題を解決してくれるのがKubernetesの役割です。
+Kubernetes（K8s）はコンテナオーケストレーションシステムです。
+ Googleが2014年に公開しました。 Googleの長きにわたるコンテナ運用の知見が詰まっているらしいです。 K8sのメイン機能としては、コンテナ化されたアプリケーションを以下のこと自動的に行うことです。  デプロイ コンテナ管理 スケール   イメージは、K8sがコンテナの管理をいい感じにやってくれるので、 私たちはただK8sに「こんな感じでシステムを運用して」と注文書（マニフェスト）を投げつけるだけです。 それ以外はK8sに任せて良いです。
+Kubernetesの構成を理解 クラスター  クラスター本体  ノード  クラスターに属するマシンを表すオブジェクト クラスターには、Masterノード１個と複数Workerノードがある Workerノードは私たちが開発したアプリケーションの実行環境となる（コンテナ群の実行環境） Masterノードは、私たちの命令に従って、各Workerノードにコンテナをデプロイしたりして、いい感じに監視・維持してくれる Masterノードは１つ、Workerノードは複数がある  Pod  Workerノード上に生成されるオブジェクト K8sの最小デプロイ単位であり、スケールする時はPod単位で生成／破棄される Pod内にコンテナが１つ以上ある  ReplicaSet（RS）とDeployment  RS  同じ仕様のPodが指定した数だけ存在するよう生成・管理する 例えば、Podが死んだ時マニフェストで指定した数になるよう自動回復してくれる  Deployment  新しいバージョンのリリースを管理するための仕組み   Service  クラスター内外からのリクエストをPodにルーティングするオブジェクト 複数のPodに対するロードバランシングの役割を持つ  </description>
+    </item>
+    
+    <item>
+      <title>Code Storage limit of AWS Lambda</title>
+      <link>https://chienkira.github.io/blog/posts/gi%E1%BB%9Bi-h%E1%BA%A1n-code-storage-trong-aws-lambda/</link>
+      <pubDate>Mon, 15 Apr 2019 17:37:58 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/gi%E1%BB%9Bi-h%E1%BA%A1n-code-storage-trong-aws-lambda/</guid>
+      <description>Cọ xát thực tế mới ngộ ra được bản chất của cái limit code storage trong AWS lambda. Bài này muốn chia sẻ lại một chút kiến thức biết được với mọi người.
+Bối cảnh Công ty đang làm service chủ yếu theo kiến trúc serverless, nên dùng tương đối nhiều AWS Lambda functions.
+ Số lượng Lambda: 238 Code size của Lambda: average 20MB ~ max 50MB  Diễn biến Ngày đẹp trời nhận được thông báo CI job failed.</description>
+    </item>
+    
+    <item>
+      <title>Am Hiểu Blue Green Deployment Trong 5 Phút</title>
+      <link>https://chienkira.github.io/blog/posts/am-hi%E1%BB%83u-blue-green-deployment-trong-5-ph%C3%BAt/</link>
+      <pubDate>Wed, 06 Mar 2019 09:29:32 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/am-hi%E1%BB%83u-blue-green-deployment-trong-5-ph%C3%BAt/</guid>
+      <description>Blue green deployment là cái khỉ ho gì? Nó có gì hay và có &amp;ldquo;ngon&amp;rdquo; không? Nếu bạn đang có câu hỏi tương tự trong đầu thì hãy thử đọc hết bài viết này nhé. Đây cũng là chia sẻ thực tế của mình sau khi được giao cho task thiết kế Blue green deployment áp dụng lên hệ thống trong công ty.
+1. Giới thiệu Blue Green deployment ※ Từ giờ viết gọn là B/G deploy</description>
+    </item>
+    
+    <item>
+      <title>Understand AWS Cloudfront (日本語)</title>
+      <link>https://chienkira.github.io/blog/posts/t%E1%BA%A5t-t%E1%BA%A7n-t%E1%BA%ADt-v%E1%BB%81-cloudfront/</link>
+      <pubDate>Thu, 21 Feb 2019 16:33:07 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/t%E1%BA%A5t-t%E1%BA%A7n-t%E1%BA%ADt-v%E1%BB%81-cloudfront/</guid>
+      <description>CloudFrontとは  AWSが提供するCDN（コンテンツ配信サービス）である。 世界中に設置されているエッジサーバを利用し、ユーザの最寄りエッジサーバからキャッシュを送ることでユーザへ高速な配信を実現できるサービスである。  CloudFrontの設定 Distribution Settings（ディストリビューション設定） ディストリビューションはCloudFrontの配信設定の単位になるので、CloudFrontの使用にはまずディストリビューションを作成する必要がある。
+ディストリビューション配信種類はWebとRTMPがある。 - Web: ウェブ配信専用（基本的にこちらの種類を使う） - RTMP: メディアのストリーミング配信専用
+ Alternate Domain Names (CNAMEs) CloudFront によって割り当てられたドメイン名（例 https://hogehoge.cloudfront.net）の代わりに、使用したい代替ドメイン名（例 https://example.com）をここに指定する。
+ SSL Certificate デフォルトのCloudFrontのSSL証明書を使用するか、独自SSL証明書（ACMで登録したもの）を選択する。
+  Origin Settings（オリジンドメイン設定）  Origin Domain Name
+オリジンドメインを選択する。 フロントエンドをS3バケットに格納した場合は、オリジンドメインにS3バケットを選択すると良い。
+※オリジンドメインとは、コンテンツの提供元のことを表す。オリジンドメインには、AWSのリソース（S3バケットやELBやAWS MediaPackageエンドポイントや AWS MediaStoreContainerエンドポイント）か、もしくはそれ以外のリソース（どこかのウェブサーバのドメイン等）でも指定できる。
+ Origin Path オリジン内のディレクトリからコンテンツが配信されるようにしたい場合は、オリジンパスを入力することで実現できる。 例えば、オリジンパスに/greenを入力した場合、ユーザーがブラウザでexample.com/index.htmlとリクエストすると、CloudFrontは s3bucket/green/index.html を返答する。
+ Origin ID ディストリビューション内でこのオリジンをユニークで区別する為の文字列である。 オリジンドメインを入力したら、自動的に生成されるオリジンIDをそのまま使っても良い。
+ Restrict Bucket Access CloudFrontのURLでしかS3バケット内のコンテンツがアクセスできないように制御をしたい場合、この設定をYESにする。 ユーザーがCloudFrontのURLでもS3バケットのURLでもアクセスできるようにしたい場合は、[No]にする。
+ Origin Access Identity [Restrict Bucket Access] で [Yes] にした場合、オリジンアクセスアイデンティティが必要になる。 新しいアイデンティティを作成するか、既存のアイデンティティを使用するかを下の [Your Identities] 設定項目で選択する。</description>
+    </item>
+    
+    <item>
+      <title>&#34;Thông&#34; Mạng Cho Aws SAM Và Dynamodb Local (日本語)</title>
+      <link>https://chienkira.github.io/blog/posts/th%C3%B4ng-m%E1%BA%A1ng-cho-aws-sam-v%C3%A0-dynamodb-local/</link>
+      <pubDate>Wed, 13 Feb 2019 15:50:07 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/th%C3%B4ng-m%E1%BA%A1ng-cho-aws-sam-v%C3%A0-dynamodb-local/</guid>
+      <description>Dynamodb localを使いローカルで開発時 SAM localのstart-apiやinvokeコマンドを使い、Lambda関数をローカルで実行する時は、
+- Lambda関数がSAMのDockerコンテナ上で実行され - Dynamodb localが別のDockerコンテナ上で動く
+そのため、Lambda関数がDynamodb localへアクセルできるように、 2つのDockerコンテナを同じネットワークに繋がせる必要があります。
+対応方法は以下の通りです。
+まずはDynamodb localのDockerセットアップ file: docker-compose.yml
+services: dynamodb: container_name: dynamodb #重要：コンテナ名を指定 image: amazon/dynamodb-local networks: - aws_local_network #繋がるネットワークを指定 &amp;lt;省略&amp;gt; networks: aws_local_network: name: aws_local_network #重要：ネットワーク名を強制的に指定 そして、モデルのソースコードを以下のように修正
+if os.environ.get(&amp;#39;AWS_SESSION_TOKEN&amp;#39;) is None: host = &amp;#34;http://dynamodb:8000&amp;#34; 　解説： AWS_SESSION_TOKEN 環境変数には、実際のAWS環境で実行する時にしか値がないので
+ローカルで実行しているかどうなの判別に使えます。
+また、http://dynamodb:8000のdynamodbはDynamodb localのコンテナ名です。
+最後に、Lambda関数をローカルで実行する時 --docker-network aws_local_network を追加で指定
+sam local start-api --docker-network aws_local_network
+又は、sam local invoke HogeFunction -e event.json --docker-network aws_local_network</description>
+    </item>
+    
+    <item>
+      <title>Understand AWS API Gateway(日本語)</title>
+      <link>https://chienkira.github.io/blog/posts/c%C6%A1-b%E1%BA%A3n-v%E1%BB%81-api-gateway/</link>
+      <pubDate>Tue, 12 Feb 2019 15:45:04 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/c%C6%A1-b%E1%BA%A3n-v%E1%BB%81-api-gateway/</guid>
+      <description>API GatewayとLambda間の処理フロー APIGatewayとLambda間の処理フローは以下の図の通りです。  クライアントからHTTPリクエストがきた時に、[Method request] がそのリクエストを受け取って認証などを行う API Gatewayは必要に応じて [Integration Request]を使い、リクエストのデータを変換してから、Lambdaに転送する ※ 変換されたデータがLambda関数のevent変数に入ります。 次にAPI Gatewayは [Integration Response] を使い、Lambdaから返ってきた戻り値（処理結果）をまたデータ変換をしてから、[Method Response] に転送 最後に、API Gatewayが [Method Response]にてクライアントに返信する  → Integration Request と Integration Responseのデータ変換に関しては、以下の2選択肢があります。
+ ①AWSのLambda proxy integration（Lambda プロキシ統合）に任せるか ②データ変換に使われるマッピングテンプレートを自分で定義するか  Lambda proxy integration（Lambda プロキシ統合） AWSのLambda プロキシ統合の詳細説明 Lambda プロキシ統合を使用する場合、Lambda関数へのInputデータやLambda関数のOutputデータのフォーマットが決まってます。
+Lambda 関数の入力形式 以下のようにHTTPリクエスト全体をLambda 関数のevent変数にマッピングされます。 よく使うのは：
+ headers: リクエストのヘッダデータ httpMethod: リクエストのメソッド情報 pathParameters: GETリクエストのパスパラメータ 例）/hoge/{group}/{user}のようなリクエストの場合、pathParameters には、groupとuserが入ってきます。 queryStringParameters: GETリクエストのクエリパラメータ 例）/hoge/{user}?page=5のようなリクエストの場合、queryStringParameters には、pageが入ってきます。 body: POSTリクエストのPostデータ  { &amp;#34;resource&amp;#34;: &amp;#34;Resource path&amp;#34;, &amp;#34;path&amp;#34;: &amp;#34;Path parameter&amp;#34;, &amp;#34;httpMethod&amp;#34;: &amp;#34;Incoming request&amp;#39;s method name&amp;#34; &amp;#34;headers&amp;#34;: {String containing incoming request headers} &amp;#34;multiValueHeaders&amp;#34;: {List of strings containing incoming request headers} &amp;#34;queryStringParameters&amp;#34;: {query string parameters } &amp;#34;multiValueQueryStringParameters&amp;#34;: {List of query string parameters} &amp;#34;pathParameters&amp;#34;: {path parameters} &amp;#34;stageVariables&amp;#34;: {Applicable stage variables} &amp;#34;requestContext&amp;#34;: {Request context, including authorizer-returned key-value pairs} &amp;#34;body&amp;#34;: &amp;#34;A JSON string of the request payload.</description>
+    </item>
+    
+  </channel>
+</rss>

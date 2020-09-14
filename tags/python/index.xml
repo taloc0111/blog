@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Chienkira full stack web developer</title>
+    <link>https://chienkira.github.io/blog/tags/python/</link>
+    <description>Recent content in python on Chienkira full stack web developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 25 Jun 2019 10:25:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://chienkira.github.io/blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Explain Mixin and How to use it with Python</title>
+      <link>https://chienkira.github.io/blog/posts/%C3%B4n-t%E1%BA%ADp-l%E1%BA%A1i-mixin-c%C3%B9ng-v%E1%BB%9Bi-python/</link>
+      <pubDate>Tue, 25 Jun 2019 10:25:00 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/%C3%B4n-t%E1%BA%ADp-l%E1%BA%A1i-mixin-c%C3%B9ng-v%E1%BB%9Bi-python/</guid>
+      <description>Vì thường ưu tiên tốc độ, chỉ tập trung làm sao đạt được output mong muốn trong thời gian ngắn nhất, mà từ bao giờ mình đã quá quen với việc &amp;ldquo;tái sử dụng&amp;rdquo; vô tội vạ các mã code Google được. Dẫn đến ngày nọ, mình nhận ra mình hơi bị mất niềm tin vào chính bản thân. Để khắc phục điều này, mình quyết định lâu lâu sẽ ôn tập củng cố lại kiến thức lập trình cơ bản, nhất là những tính năng độc đáo có chất đặc thù một tí của từng ngôn ngữ.</description>
+    </item>
+    
+    <item>
+      <title>Unpack with Python</title>
+      <link>https://chienkira.github.io/blog/posts/th%E1%BB%A7-thu%E1%BA%ADt-unpack-trong-python/</link>
+      <pubDate>Fri, 05 Apr 2019 10:38:57 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/th%E1%BB%A7-thu%E1%BA%ADt-unpack-trong-python/</guid>
+      <description>Ký tự * ngoài là toán tử multiplication (phép nhân) và string replication ra, trong Python nó còn có một tác dụng khác khá xịn xò - unpack (một số người còn gọi là splat).
+Ký hiệu * Unpack chỉ có thể áp dụng lên một object loại iterable, để áp dụng việc cần làm là đặt ký hiệu * lên liền ngay trước object đó.
+ Ví dụ:</description>
+    </item>
+    
+    <item>
+      <title>Make your own CLI program with Python</title>
+      <link>https://chienkira.github.io/blog/posts/t%E1%BB%B1-t%E1%BA%A1o-ch%C6%B0%C6%A1ng-tr%C3%ACnh-cli-c%E1%BB%A7a-ch%C3%ADnh-m%C3%ACnh-kh%C3%B4ng-%C4%91%E1%BB%A5ng-h%C3%A0ng/</link>
+      <pubDate>Wed, 13 Mar 2019 23:04:57 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/t%E1%BB%B1-t%E1%BA%A1o-ch%C6%B0%C6%A1ng-tr%C3%ACnh-cli-c%E1%BB%A7a-ch%C3%ADnh-m%C3%ACnh-kh%C3%B4ng-%C4%91%E1%BB%A5ng-h%C3%A0ng/</guid>
+      <description>Lập trình viên không sớm thì muộn cũng sẽ yêu cái máy tính không khác gì yêu vợ. Rồi ngày qua ngày tiếp xúc với cửa sổ dòng lệnh, mắt lập trình viên dần thấy quen và ưng cái giao diện command line (CLI) hơn cả GUI màu sắc 😂
+CLI: command line interface
+Đây là live action cái CLI mình đã làm thử ra. Mở đầu Từ vài năm trước, sau khi chuyển qua sử dụng Mac thì thói quen sử dụng command line của mình đã được cải thiện rõ rệt.</description>
+    </item>
+    
+    <item>
+      <title>Tips Setting Pycharm IDE For Python Development (日本語)</title>
+      <link>https://chienkira.github.io/blog/posts/tips-c%C3%A0i-%C4%91%E1%BA%B7t-pycharm-%C4%91%E1%BB%83-code-python/</link>
+      <pubDate>Fri, 08 Feb 2019 15:49:01 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/tips-c%C3%A0i-%C4%91%E1%BA%B7t-pycharm-%C4%91%E1%BB%83-code-python/</guid>
+      <description>PycharmのInterpreterの設定方法 python仮想環境を使い、開発する際にはPycharmがそのpython仮想環境を認識させる必要があります。
+※ 認識させないと、Pycharmの方がインストールされているライブラリが分からずimportのエラーなどが出てしまいます。
+ ① Python仮想環境の場所を確認
+pipenvの場合はこのコマンドで確認できます。 pipenv --venv
+output例： /Users/kira/.local/share/virtualenvs/project_name-Qr43IEm2
+ ② Pycharmの方でプロジェクトのInterpreterを設定
+ PycharmのPreferences画面を開く
+ 左側のメニューから「Project: プロジェクト名」=&amp;gt;「Project Interpreter」を選択
+ Project Interpreterのドロップダウンから「Show All」を選択し、「+」の追加ボタンを押す
+ 左側のメニューから「System Interpreter」を選択し、「&amp;hellip;」ボタンをクリックして①で確認できたパスを指定
+※ 注意：bin/pythonX.Xまで指定してください。   PycharmのSources Root設定方法 開発ソースコードがプロジェクトの直下にはなく、srcフォルダーなどの中に置かれる場合が多いです。
+※ CodeUriが./srcで設定される場合が多いです。
+例えば以下のようなファイル構成の場合
+|--template.yaml |--src | |--app | | |--__init__.py | | |--common | | | |--__init__.py | | | |--helper.py | | |--handlers | | | |--__init__.py | | | |--purchase.py purchase.pyファイルでapp/common/helper.pyのモジュールなどをimportするところのfrom app.common.helper import some_helper にPycharmがエラーを表示します。</description>
+    </item>
+    
+  </channel>
+</rss>

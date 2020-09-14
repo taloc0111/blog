@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ruby on Chienkira full stack web developer</title>
+    <link>https://chienkira.github.io/blog/tags/ruby/</link>
+    <description>Recent content in ruby on Chienkira full stack web developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 24 Jan 2020 14:46:24 +0900</lastBuildDate>
+    
+	<atom:link href="https://chienkira.github.io/blog/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rails Single Table Inheritance and DRY Code (日本語)</title>
+      <link>https://chienkira.github.io/blog/posts/rails-single-table-inheritance-and-dry-code/</link>
+      <pubDate>Fri, 24 Jan 2020 14:46:24 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/rails-single-table-inheritance-and-dry-code/</guid>
+      <description>STI（Single Table Inheritance/単一テーブル継承）をRailsでどう実装するかについて、情報をまとめて残したいと思います。
+STIの概要  英語：Single Table Inheritance 日本語：単一テーブル継承  OOPプログラミングの世界でよく知られている「継承」技術の一つです。
+共通項目、共通振る舞いを折り出してスーパークラスを作り、 非共通項目や振る舞いはそのスーパークラスの継承したサブクラスで定義するというやり方ですね。
+こうすることで、コードの重複を防げます。メンテナンスもやりやすいコードになります。
+データベースの設計にも適用しようというのがSTIです。 特に、モデル間の共通データがほとんどだが、振る舞いが異なる場合はSTIが一番適切です。
+RailsでSTIを実装してみる 例のシステム  スマホを販売している会社がスマホのデータを管理したい スマホの種類は、iPhoneとAndroidの2種類がある 種類に関係なく、製造番号やメモリや画面サイズなどのデータが共通となる（→ STIに適切ヒントですね） なお、スマホの種類によって異なるアクションができるようにする必要がある。 例えば、スマホの最新OSバージョンチェック機能があるとして、  iPhoneの場合AppleのAPIを叩く必要がある、 対して、Androidの場合GoogleのAPIを叩かないといけない   Rails実装 何にも気にしないで作ると、iphone/androidそれぞれのテーブル、モデルを作成しますよね。 そして、共通のデータやメソッドもあるので、 似たような記述・コピペが増えそうな予感を感じますよね！
+それを避ける為に、STIを適用してみしょう。 ↓の図をご覧ください。
+一見どうということもないように見えますが、実は
+ iPhoneとAndroidテーブルは存在しない 全てのスマホのデータが、smartphoneテーブル一つだけに保存される  スーパーテーブルを用意して、継承のサブテーブルを作成するということです。
+データレベルでは、スマホのデータしか実在しませんが、 アプリケーションレベル（Rails上）では、スマホを継承したiPhoneとAndroidモデルが存在します。
+Railsで実際に実装する 1. マイグレーションを作成 スマホのテーブルしか存在しないので、マイグレーションファイルは1個になります。
+class CreateSmartphoneTables &amp;lt; ActiveRecord::Migration[5.2] def change create_table :smartphones do |t| t.string :type, null: false t.string :serial_no t.float :screen_size t.integer :memory t.timestamps null: false end end end ポイントは、typeカラムを必須で用意する必要があることです。 RailsにSTIを使っているよって伝えるためです。</description>
+    </item>
+    
+    <item>
+      <title>How to integrate Softbank payment gateway (日本語)</title>
+      <link>https://chienkira.github.io/blog/posts/guide-to-integrate-softbank-payment-service/</link>
+      <pubDate>Sun, 08 Dec 2019 09:36:35 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/guide-to-integrate-softbank-payment-service/</guid>
+      <description>この間、決済代行サービス（SoftBankペイメント）を案件に導入したので、実際に実装して分かったことをこの記事にまとめてシェアしたいと思います。
+バックグラウンド  私はこれまで決済代行サービスとの連携を実装したことがありません。 この案件は、クレジットカード支払いに対応しなければなりません。今後キャリア決済も対応する可能性があります。 Railsで実装されたWebアプリケーションからの連携となります。  決済代行サービスとは  加盟店と各決済会社（カード会社やオンライ決済）の間に入り、多種の決済方法を対応してくれるサービスです。 決済代行サービスを使わない場合、どうなるか？  各決済会社と個別契約をしないといけない　→　審査が大変厳しくなってしまう、工数もかなり掛かってしまう 決済会社によって、入金サイクルや手数料率が異なるので、事務処理に大変手間が掛かってしまう カード情報保管など、加盟店側が行わなければならない為、セキュリティー面の対応のハドルは高い  上のような不便を解決するために、決済代行サービスが存在しています。  SoftBankペイメントについてのまとめ 1. 導入の大きな流れ  まずは、エントリーシートを記入してSoftBankペイメント（SBペイメント）へ提出する SB側が各決済会社への審査を行ってくれる 審査が通過したら、私たち（加盟店）の環境が構築される
+※ キャリア決済の審査が遅い傾向にある為、各カード会社の審査がOKになったら、途中で環境構築が始められるそうです。急いでる方はSBの営業担当者へ依頼してください。 環境構築が終わり次第、試験と本番環境の接続情報がもらえる  連携時に必要な情報 管理画面のログイン情報  審査に時間はかかる為、基本的には「共用試験環境」を使って実装を先に進めてください！と営業担当者から案内される
+※ 共用試験環境は、SBペイメントの導入を検討している人々がシェアして使う環境である。実装を確認する為に、使えるテストカード情報なども共有される。  2. システム接続方式 SBペイメントは以下の2つの接続方法を対応しています。
+契約する時、どちらかしか選択できないという訳ではありません。API＋リンク両方使用することも可能です。
+ リンク型：エンドユーザーをSBペイメントの画面に誘導して、決済させるというイメージ API型：加盟店の画面がSBペイメントのAPIを呼び出して決済処理を行うというイメージ  2.1 リンク型 SBペイメントが提供する決済手続きの各画面を利用する方式です。 決済処理が終わた後、任意の加盟店側のページに画面遷移されます。
+2.2 API型 SBペイメントの画面を使わず、APIでサーバー間の連携を行う方式です。 決済画面全部が自由にカスタマイズできます。
+2.3 リンク型とAPI型の比較    項目 リンク型 API型     決済画面のカスタマイズ プラス料金を出せば、デザインのカスタマイズはできるが、 リンク追加など出来ない内容もある 自由に   決済処理フロー 決済代行サービスの仕様に依存 自由に   開発容易度と工数 低 高   利用可能な決済手段の差 豊富 一部の決済手段はAPI型対応しない    3.</description>
+    </item>
+    
+    <item>
+      <title>Care about writing readable Ruby code?</title>
+      <link>https://chienkira.github.io/blog/posts/code-ruby-c%E1%BB%A7a-b%E1%BA%A1n-%C4%91%C3%A3-d%E1%BB%85-%C4%91%E1%BB%8Dc-ch%C6%B0a/</link>
+      <pubDate>Thu, 24 Oct 2019 09:52:45 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/code-ruby-c%E1%BB%A7a-b%E1%BA%A1n-%C4%91%C3%A3-d%E1%BB%85-%C4%91%E1%BB%8Dc-ch%C6%B0a/</guid>
+      <description>Do you care about writing readable code? Bài này mình muốn giới thiệu tới các bạn vài mẹo mà thời gian gần đây mình mới học được, giúp cho code Ruby trông chuyên nghiệp, dễ đọc hơn. Đây đều là những tip mà cá nhân mình thấy rất hay nhưng lại không nhiều người biết đến hoặc áp dụng thực tế. Nếu bạn cũng có tips muốn chia sẻ, comment bên dưới nhé ↓↓↓ 😃</description>
+    </item>
+    
+  </channel>
+</rss>

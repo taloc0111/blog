@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>logging on Chienkira full stack web developer</title>
+    <link>https://chienkira.github.io/blog/tags/logging/</link>
+    <description>Recent content in logging on Chienkira full stack web developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 30 Jul 2020 10:00:38 +0900</lastBuildDate>
+    
+	<atom:link href="https://chienkira.github.io/blog/tags/logging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Better Logging Practice (Part 2)</title>
+      <link>https://chienkira.github.io/blog/posts/better-logging-practice-part2/</link>
+      <pubDate>Thu, 30 Jul 2020 10:00:38 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/better-logging-practice-part2/</guid>
+      <description>Đại dịch covid-19 tiến hóa thành covid-20 và cả ở Nhật hay ở Việt Nam thì tình hình đều đang rất đáng lo ngại. Bên Nhật còn vài tháng nữa là lại vào mùa lạnh, mùa cúm infu nữa&amp;hellip; không biết sẽ ra sao. Thôi không đánh trống lảng nữa, lý do mãi mới viết nốt part 2 là do lười ham chơi thôi! 😄 🙏 Let&amp;rsquo;s get start!!</description>
+    </item>
+    
+    <item>
+      <title>Better Logging Practice (Part 1)</title>
+      <link>https://chienkira.github.io/blog/posts/better-logging-practice/</link>
+      <pubDate>Sun, 24 May 2020 13:17:39 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/better-logging-practice/</guid>
+      <description>Ruby là một ngôn ngữ đẹp, gems lại giống những món trang sức vừa xứng tầm vừa sang chảnh của ả. Và cá nhân mình cảm nhận thấy gu của những dev làm việc với Ruby cũng ít nhiều ở một level khá ổn, mọi người khá &amp;ldquo;sạch sẽ&amp;rdquo; và &amp;ldquo;tinh tế&amp;rdquo; :)) ngay cả trong chuyện logging nhé! Qua bài này, xin giới thiệu 1 gem và 1 AWS tool hữu ích cho việc quản lý logs đến các thánh thần!</description>
+    </item>
+    
+  </channel>
+</rss>

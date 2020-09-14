@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>infra on Chienkira full stack web developer</title>
+    <link>https://chienkira.github.io/blog/tags/infra/</link>
+    <description>Recent content in infra on Chienkira full stack web developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 09 Jan 2020 17:50:27 +0900</lastBuildDate>
+    
+	<atom:link href="https://chienkira.github.io/blog/tags/infra/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Memo about AWS ECS Fargate</title>
+      <link>https://chienkira.github.io/blog/posts/ecs-fargate/</link>
+      <pubDate>Thu, 09 Jan 2020 17:50:27 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/ecs-fargate/</guid>
+      <description>Mới đầu năm 2020 nhưng lại có cơ hội được tham khảo một hệ thống xài docker container vào môi trường prod. Ở đây họ dùng ECS và Fargate của AWS. Mình vẽ lại sơ đồ cấu thành của nó lưu lại làm tham khảo và ôn tập lại ECS luôn.
+Cấu thành của 1 hệ thống API dùng ECS Fargate ↓ Ảnh svg, có thể tải về và phóng to ra.</description>
+    </item>
+    
+    <item>
+      <title>Set up production environment for Rails app using Puma and Nginx</title>
+      <link>https://chienkira.github.io/blog/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-server-rails-puma-nginx/</link>
+      <pubDate>Tue, 12 Nov 2019 15:24:47 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-server-rails-puma-nginx/</guid>
+      <description>Puma là web server nhỏ gọn đi liền trong Rails giúp developer có thể bắt đầu code một cách nhanh nhất. Tuy nhiên mang nó làm web server thực sự để chạy trên môi trường production thì chưa ổn. Bài này mình muốn memo lại chia sẻ với các bạn các bước cài đặt server để ứng dụng Rails chạy ổn định trên môi trường production.
+Prerequisite  OS môi trường là Amazon linux Database sử dụng là Postgres  System configuration Puma hoạt động như application server cho ứng dụng Rails, còn Nginx sẽ hoạt động với vai trò là reverse proxy - nhận request và chuyển response giữa client và Puma.</description>
+    </item>
+    
+    <item>
+      <title>Minimum Web App Terraform Skeleton (English)</title>
+      <link>https://chienkira.github.io/blog/posts/minimum-web-app-terraform-skeleton/</link>
+      <pubDate>Sun, 03 Nov 2019 16:56:11 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/minimum-web-app-terraform-skeleton/</guid>
+      <description>I made a Skeleton for Terraform code. Basically I&amp;rsquo;m supposed to use it for future projects, but then just thought it might be useful for others so that want to share it with you. Also I tried to avoid having to copy and paste codes when deploye in multiple environments for same app. Hopefully, you will be able to reuse at least a part or an idea to help you with your work.</description>
+    </item>
+    
+    <item>
+      <title>Terraform Module and DRY infra code for multiple environments</title>
+      <link>https://chienkira.github.io/blog/posts/deploy-nhi%E1%BB%81u-m%C3%B4i-tr%C6%B0%E1%BB%9Dng-v%E1%BB%9Bi-terraform/</link>
+      <pubDate>Sat, 15 Jun 2019 10:28:15 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/deploy-nhi%E1%BB%81u-m%C3%B4i-tr%C6%B0%E1%BB%9Dng-v%E1%BB%9Bi-terraform/</guid>
+      <description>Vào mùa mưa rồi, ngày cuối tuần bị nó hành cho suốt luôn. Vừa mưa còn vừa lạnh, ai nghĩ đây là mùa hè chứ!!. Tuy nhiên cũng nhờ thế mà nhớ đến cái sở thích 地味 này 😂 Trong bài viết này, mình muốn giới thiệu về module trong terraform, và cách sử dụng nó để deploy lên nhiều môi trường dev-stg-prod khác nhau.
+TL;DR  Các lệnh của terraform mặc định chỉ xử lý các file *.</description>
+    </item>
+    
+    <item>
+      <title>Am Hiểu Blue Green Deployment Trong 5 Phút</title>
+      <link>https://chienkira.github.io/blog/posts/am-hi%E1%BB%83u-blue-green-deployment-trong-5-ph%C3%BAt/</link>
+      <pubDate>Wed, 06 Mar 2019 09:29:32 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/am-hi%E1%BB%83u-blue-green-deployment-trong-5-ph%C3%BAt/</guid>
+      <description>Blue green deployment là cái khỉ ho gì? Nó có gì hay và có &amp;ldquo;ngon&amp;rdquo; không? Nếu bạn đang có câu hỏi tương tự trong đầu thì hãy thử đọc hết bài viết này nhé. Đây cũng là chia sẻ thực tế của mình sau khi được giao cho task thiết kế Blue green deployment áp dụng lên hệ thống trong công ty.
+1. Giới thiệu Blue Green deployment ※ Từ giờ viết gọn là B/G deploy</description>
+    </item>
+    
+  </channel>
+</rss>

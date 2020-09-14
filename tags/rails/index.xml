@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rails on Chienkira full stack web developer</title>
+    <link>https://chienkira.github.io/blog/tags/rails/</link>
+    <description>Recent content in rails on Chienkira full stack web developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 30 Jul 2020 10:00:38 +0900</lastBuildDate>
+    
+	<atom:link href="https://chienkira.github.io/blog/tags/rails/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Better Logging Practice (Part 2)</title>
+      <link>https://chienkira.github.io/blog/posts/better-logging-practice-part2/</link>
+      <pubDate>Thu, 30 Jul 2020 10:00:38 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/better-logging-practice-part2/</guid>
+      <description>Đại dịch covid-19 tiến hóa thành covid-20 và cả ở Nhật hay ở Việt Nam thì tình hình đều đang rất đáng lo ngại. Bên Nhật còn vài tháng nữa là lại vào mùa lạnh, mùa cúm infu nữa&amp;hellip; không biết sẽ ra sao. Thôi không đánh trống lảng nữa, lý do mãi mới viết nốt part 2 là do lười ham chơi thôi! 😄 🙏 Let&amp;rsquo;s get start!!</description>
+    </item>
+    
+    <item>
+      <title>Better Logging Practice (Part 1)</title>
+      <link>https://chienkira.github.io/blog/posts/better-logging-practice/</link>
+      <pubDate>Sun, 24 May 2020 13:17:39 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/better-logging-practice/</guid>
+      <description>Ruby là một ngôn ngữ đẹp, gems lại giống những món trang sức vừa xứng tầm vừa sang chảnh của ả. Và cá nhân mình cảm nhận thấy gu của những dev làm việc với Ruby cũng ít nhiều ở một level khá ổn, mọi người khá &amp;ldquo;sạch sẽ&amp;rdquo; và &amp;ldquo;tinh tế&amp;rdquo; :)) ngay cả trong chuyện logging nhé! Qua bài này, xin giới thiệu 1 gem và 1 AWS tool hữu ích cho việc quản lý logs đến các thánh thần!</description>
+    </item>
+    
+    <item>
+      <title>Rails Single Table Inheritance and DRY Code (日本語)</title>
+      <link>https://chienkira.github.io/blog/posts/rails-single-table-inheritance-and-dry-code/</link>
+      <pubDate>Fri, 24 Jan 2020 14:46:24 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/rails-single-table-inheritance-and-dry-code/</guid>
+      <description>STI（Single Table Inheritance/単一テーブル継承）をRailsでどう実装するかについて、情報をまとめて残したいと思います。
+STIの概要  英語：Single Table Inheritance 日本語：単一テーブル継承  OOPプログラミングの世界でよく知られている「継承」技術の一つです。
+共通項目、共通振る舞いを折り出してスーパークラスを作り、 非共通項目や振る舞いはそのスーパークラスの継承したサブクラスで定義するというやり方ですね。
+こうすることで、コードの重複を防げます。メンテナンスもやりやすいコードになります。
+データベースの設計にも適用しようというのがSTIです。 特に、モデル間の共通データがほとんどだが、振る舞いが異なる場合はSTIが一番適切です。
+RailsでSTIを実装してみる 例のシステム  スマホを販売している会社がスマホのデータを管理したい スマホの種類は、iPhoneとAndroidの2種類がある 種類に関係なく、製造番号やメモリや画面サイズなどのデータが共通となる（→ STIに適切ヒントですね） なお、スマホの種類によって異なるアクションができるようにする必要がある。 例えば、スマホの最新OSバージョンチェック機能があるとして、  iPhoneの場合AppleのAPIを叩く必要がある、 対して、Androidの場合GoogleのAPIを叩かないといけない   Rails実装 何にも気にしないで作ると、iphone/androidそれぞれのテーブル、モデルを作成しますよね。 そして、共通のデータやメソッドもあるので、 似たような記述・コピペが増えそうな予感を感じますよね！
+それを避ける為に、STIを適用してみしょう。 ↓の図をご覧ください。
+一見どうということもないように見えますが、実は
+ iPhoneとAndroidテーブルは存在しない 全てのスマホのデータが、smartphoneテーブル一つだけに保存される  スーパーテーブルを用意して、継承のサブテーブルを作成するということです。
+データレベルでは、スマホのデータしか実在しませんが、 アプリケーションレベル（Rails上）では、スマホを継承したiPhoneとAndroidモデルが存在します。
+Railsで実際に実装する 1. マイグレーションを作成 スマホのテーブルしか存在しないので、マイグレーションファイルは1個になります。
+class CreateSmartphoneTables &amp;lt; ActiveRecord::Migration[5.2] def change create_table :smartphones do |t| t.string :type, null: false t.string :serial_no t.float :screen_size t.integer :memory t.timestamps null: false end end end ポイントは、typeカラムを必須で用意する必要があることです。 RailsにSTIを使っているよって伝えるためです。</description>
+    </item>
+    
+    <item>
+      <title>How to integrate Softbank payment gateway (日本語)</title>
+      <link>https://chienkira.github.io/blog/posts/guide-to-integrate-softbank-payment-service/</link>
+      <pubDate>Sun, 08 Dec 2019 09:36:35 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/guide-to-integrate-softbank-payment-service/</guid>
+      <description>この間、決済代行サービス（SoftBankペイメント）を案件に導入したので、実際に実装して分かったことをこの記事にまとめてシェアしたいと思います。
+バックグラウンド  私はこれまで決済代行サービスとの連携を実装したことがありません。 この案件は、クレジットカード支払いに対応しなければなりません。今後キャリア決済も対応する可能性があります。 Railsで実装されたWebアプリケーションからの連携となります。  決済代行サービスとは  加盟店と各決済会社（カード会社やオンライ決済）の間に入り、多種の決済方法を対応してくれるサービスです。 決済代行サービスを使わない場合、どうなるか？  各決済会社と個別契約をしないといけない　→　審査が大変厳しくなってしまう、工数もかなり掛かってしまう 決済会社によって、入金サイクルや手数料率が異なるので、事務処理に大変手間が掛かってしまう カード情報保管など、加盟店側が行わなければならない為、セキュリティー面の対応のハドルは高い  上のような不便を解決するために、決済代行サービスが存在しています。  SoftBankペイメントについてのまとめ 1. 導入の大きな流れ  まずは、エントリーシートを記入してSoftBankペイメント（SBペイメント）へ提出する SB側が各決済会社への審査を行ってくれる 審査が通過したら、私たち（加盟店）の環境が構築される
+※ キャリア決済の審査が遅い傾向にある為、各カード会社の審査がOKになったら、途中で環境構築が始められるそうです。急いでる方はSBの営業担当者へ依頼してください。 環境構築が終わり次第、試験と本番環境の接続情報がもらえる  連携時に必要な情報 管理画面のログイン情報  審査に時間はかかる為、基本的には「共用試験環境」を使って実装を先に進めてください！と営業担当者から案内される
+※ 共用試験環境は、SBペイメントの導入を検討している人々がシェアして使う環境である。実装を確認する為に、使えるテストカード情報なども共有される。  2. システム接続方式 SBペイメントは以下の2つの接続方法を対応しています。
+契約する時、どちらかしか選択できないという訳ではありません。API＋リンク両方使用することも可能です。
+ リンク型：エンドユーザーをSBペイメントの画面に誘導して、決済させるというイメージ API型：加盟店の画面がSBペイメントのAPIを呼び出して決済処理を行うというイメージ  2.1 リンク型 SBペイメントが提供する決済手続きの各画面を利用する方式です。 決済処理が終わた後、任意の加盟店側のページに画面遷移されます。
+2.2 API型 SBペイメントの画面を使わず、APIでサーバー間の連携を行う方式です。 決済画面全部が自由にカスタマイズできます。
+2.3 リンク型とAPI型の比較    項目 リンク型 API型     決済画面のカスタマイズ プラス料金を出せば、デザインのカスタマイズはできるが、 リンク追加など出来ない内容もある 自由に   決済処理フロー 決済代行サービスの仕様に依存 自由に   開発容易度と工数 低 高   利用可能な決済手段の差 豊富 一部の決済手段はAPI型対応しない    3.</description>
+    </item>
+    
+    <item>
+      <title>Set up production environment for Rails app using Puma and Nginx</title>
+      <link>https://chienkira.github.io/blog/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-server-rails-puma-nginx/</link>
+      <pubDate>Tue, 12 Nov 2019 15:24:47 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-server-rails-puma-nginx/</guid>
+      <description>Puma là web server nhỏ gọn đi liền trong Rails giúp developer có thể bắt đầu code một cách nhanh nhất. Tuy nhiên mang nó làm web server thực sự để chạy trên môi trường production thì chưa ổn. Bài này mình muốn memo lại chia sẻ với các bạn các bước cài đặt server để ứng dụng Rails chạy ổn định trên môi trường production.
+Prerequisite  OS môi trường là Amazon linux Database sử dụng là Postgres  System configuration Puma hoạt động như application server cho ứng dụng Rails, còn Nginx sẽ hoạt động với vai trò là reverse proxy - nhận request và chuyển response giữa client và Puma.</description>
+    </item>
+    
+    <item>
+      <title>Care about writing readable Ruby code?</title>
+      <link>https://chienkira.github.io/blog/posts/code-ruby-c%E1%BB%A7a-b%E1%BA%A1n-%C4%91%C3%A3-d%E1%BB%85-%C4%91%E1%BB%8Dc-ch%C6%B0a/</link>
+      <pubDate>Thu, 24 Oct 2019 09:52:45 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/code-ruby-c%E1%BB%A7a-b%E1%BA%A1n-%C4%91%C3%A3-d%E1%BB%85-%C4%91%E1%BB%8Dc-ch%C6%B0a/</guid>
+      <description>Do you care about writing readable code? Bài này mình muốn giới thiệu tới các bạn vài mẹo mà thời gian gần đây mình mới học được, giúp cho code Ruby trông chuyên nghiệp, dễ đọc hơn. Đây đều là những tip mà cá nhân mình thấy rất hay nhưng lại không nhiều người biết đến hoặc áp dụng thực tế. Nếu bạn cũng có tips muốn chia sẻ, comment bên dưới nhé ↓↓↓ 😃</description>
+    </item>
+    
+    <item>
+      <title>Set up HTTPS-supported development environment for Rails app</title>
+      <link>https://chienkira.github.io/blog/posts/https-cho-m%C3%B4i-tr%C6%B0%E1%BB%9Dng-dev-rails/</link>
+      <pubDate>Sun, 18 Aug 2019 21:47:30 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/https-cho-m%C3%B4i-tr%C6%B0%E1%BB%9Dng-dev-rails/</guid>
+      <description>Hướng dẫn cấu hình tạo môi trường dev rails hỗ trợ giao thức HTTPS hoàn chỉnh nhanh và đơn giản nhất. Https &amp;ldquo;hiểu đơn giản kiểu đà điểu&amp;rdquo; là giao thức được secured, không trần truồng và lộ liễu như http thông thường.
+Tại sao cần HTTPS cho môi trường dev? Đúng rồi! Chắc sẽ có người thắc mắc vậy, &amp;ldquo;Ông dỗi hơi hay sao mà phải tạo môi trường dev hỗ trợ HTTPS, dev thì http là được rồi còn gì?</description>
+    </item>
+    
+  </channel>
+</rss>

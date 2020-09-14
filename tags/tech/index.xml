@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on Chienkira full stack web developer</title>
+    <link>https://chienkira.github.io/blog/tags/tech/</link>
+    <description>Recent content in tech on Chienkira full stack web developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 30 Jul 2020 10:00:38 +0900</lastBuildDate>
+    
+	<atom:link href="https://chienkira.github.io/blog/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Better Logging Practice (Part 2)</title>
+      <link>https://chienkira.github.io/blog/posts/better-logging-practice-part2/</link>
+      <pubDate>Thu, 30 Jul 2020 10:00:38 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/better-logging-practice-part2/</guid>
+      <description>Đại dịch covid-19 tiến hóa thành covid-20 và cả ở Nhật hay ở Việt Nam thì tình hình đều đang rất đáng lo ngại. Bên Nhật còn vài tháng nữa là lại vào mùa lạnh, mùa cúm infu nữa&amp;hellip; không biết sẽ ra sao. Thôi không đánh trống lảng nữa, lý do mãi mới viết nốt part 2 là do lười ham chơi thôi! 😄 🙏 Let&amp;rsquo;s get start!!</description>
+    </item>
+    
+    <item>
+      <title>Better Logging Practice (Part 1)</title>
+      <link>https://chienkira.github.io/blog/posts/better-logging-practice/</link>
+      <pubDate>Sun, 24 May 2020 13:17:39 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/better-logging-practice/</guid>
+      <description>Ruby là một ngôn ngữ đẹp, gems lại giống những món trang sức vừa xứng tầm vừa sang chảnh của ả. Và cá nhân mình cảm nhận thấy gu của những dev làm việc với Ruby cũng ít nhiều ở một level khá ổn, mọi người khá &amp;ldquo;sạch sẽ&amp;rdquo; và &amp;ldquo;tinh tế&amp;rdquo; :)) ngay cả trong chuyện logging nhé! Qua bài này, xin giới thiệu 1 gem và 1 AWS tool hữu ích cho việc quản lý logs đến các thánh thần!</description>
+    </item>
+    
+    <item>
+      <title>Set up production environment for Rails app using Puma and Nginx</title>
+      <link>https://chienkira.github.io/blog/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-server-rails-puma-nginx/</link>
+      <pubDate>Tue, 12 Nov 2019 15:24:47 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-server-rails-puma-nginx/</guid>
+      <description>Puma là web server nhỏ gọn đi liền trong Rails giúp developer có thể bắt đầu code một cách nhanh nhất. Tuy nhiên mang nó làm web server thực sự để chạy trên môi trường production thì chưa ổn. Bài này mình muốn memo lại chia sẻ với các bạn các bước cài đặt server để ứng dụng Rails chạy ổn định trên môi trường production.
+Prerequisite  OS môi trường là Amazon linux Database sử dụng là Postgres  System configuration Puma hoạt động như application server cho ứng dụng Rails, còn Nginx sẽ hoạt động với vai trò là reverse proxy - nhận request và chuyển response giữa client và Puma.</description>
+    </item>
+    
+    <item>
+      <title>Minimum Web App Terraform Skeleton (English)</title>
+      <link>https://chienkira.github.io/blog/posts/minimum-web-app-terraform-skeleton/</link>
+      <pubDate>Sun, 03 Nov 2019 16:56:11 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/minimum-web-app-terraform-skeleton/</guid>
+      <description>I made a Skeleton for Terraform code. Basically I&amp;rsquo;m supposed to use it for future projects, but then just thought it might be useful for others so that want to share it with you. Also I tried to avoid having to copy and paste codes when deploye in multiple environments for same app. Hopefully, you will be able to reuse at least a part or an idea to help you with your work.</description>
+    </item>
+    
+    <item>
+      <title>Care about writing readable Ruby code?</title>
+      <link>https://chienkira.github.io/blog/posts/code-ruby-c%E1%BB%A7a-b%E1%BA%A1n-%C4%91%C3%A3-d%E1%BB%85-%C4%91%E1%BB%8Dc-ch%C6%B0a/</link>
+      <pubDate>Thu, 24 Oct 2019 09:52:45 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/code-ruby-c%E1%BB%A7a-b%E1%BA%A1n-%C4%91%C3%A3-d%E1%BB%85-%C4%91%E1%BB%8Dc-ch%C6%B0a/</guid>
+      <description>Do you care about writing readable code? Bài này mình muốn giới thiệu tới các bạn vài mẹo mà thời gian gần đây mình mới học được, giúp cho code Ruby trông chuyên nghiệp, dễ đọc hơn. Đây đều là những tip mà cá nhân mình thấy rất hay nhưng lại không nhiều người biết đến hoặc áp dụng thực tế. Nếu bạn cũng có tips muốn chia sẻ, comment bên dưới nhé ↓↓↓ 😃</description>
+    </item>
+    
+    <item>
+      <title>Unpack with Python</title>
+      <link>https://chienkira.github.io/blog/posts/th%E1%BB%A7-thu%E1%BA%ADt-unpack-trong-python/</link>
+      <pubDate>Fri, 05 Apr 2019 10:38:57 +0900</pubDate>
+      
+      <guid>https://chienkira.github.io/blog/posts/th%E1%BB%A7-thu%E1%BA%ADt-unpack-trong-python/</guid>
+      <description>Ký tự * ngoài là toán tử multiplication (phép nhân) và string replication ra, trong Python nó còn có một tác dụng khác khá xịn xò - unpack (một số người còn gọi là splat).
+Ký hiệu * Unpack chỉ có thể áp dụng lên một object loại iterable, để áp dụng việc cần làm là đặt ký hiệu * lên liền ngay trước object đó.
+ Ví dụ:</description>
+    </item>
+    
+  </channel>
+</rss>
